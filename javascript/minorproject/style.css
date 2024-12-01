@@ -1,0 +1,166 @@
+/* General Styles */
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://i.pinimg.com/564x/7a/d3/3a/7ad33a335ed7a0b5776af97c55d10f0b.jpg');
+    
+    
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Banner Section */
+.banner {
+    text-align: center;
+    padding: 50px;
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.banner img {
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Product Section */
+#products {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.product .rating {
+    color: gold;
+    margin: 5px 0;
+}
+
+.product .price {
+    color: #ff6f61;
+    font-size: 1.1em;
+}
+
+.product .description {
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Hover Effects */
+.product:hover img {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Animated Image */
+.animated-image {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* About & Contact Section */
+#about, #contact {
+    padding: 50px;
+    background-color: #f0f0f0;
+    text-align: center;
+    
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#contact{
+
+    background-image:url('https://i.pinimg.com/originals/7a/33/3b/7a333b30bd22aa0570705cffbfe90583.gif');
+    
+
+
+}
+#home{
+    background-image: url('https://i.pinimg.com/564x/13/10/1d/13101d41f9f36e7661cabf88fec04d61.jpg');
+}
+#header h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contact ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#home p{
+    color: #441746;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 100;
+}
+

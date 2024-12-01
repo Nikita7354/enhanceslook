@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: black;
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    background-color: #404040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+#nav h4{
+    color: aliceblue;
+    font-weight: 300;
+    font-size: 16px;
+}
+#nav2{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(95, 93, 93, 0.221);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav2 p{
+    color: aliceblue;
+    font-size: 16px;
+}
+#nav2 a{
+    color: blueviolet;
+    text-decoration: none;
+}
+#center{
+    height: 110%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bn/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_largetall_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+#center h1{
+    color: white;
+    font-size: 65px;
+    font-weight: 400;
+    text-align: center;
+}
+#center h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+#learn{
+    background-color: royalblue;
+    color: white;
+    padding: 14px 28px;
+    font-weight: 500px;
+    border-radius: 58px;
+    font-size: 15px;
+    border: 2px solid royalblue;
+}
+#buy{
+    background-color: transparent;
+    color: royalblue;
+    padding: 14px 28px;
+    font-weight: 400;
+    border: 2px solid royalblue;
+    font-size: 15px;
+    border-radius: 50px;
+
+}
+#buy:hover{
+    background-color: royalblue;
+    color: white;
+}
+#center2{
+    height: 110%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bn/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_largetall_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    
+}
+#center2 h1{
+    color:black;
+    font-size: 65px;
+    font-weight: 400;
+    text-align: center;
+}
+#center2 h3{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+#link2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+#learn2{
+    background-color: royalblue;
+    color: white;
+    padding: 14px 28px;
+    font-weight: 500px;
+    border-radius: 58px;
+    font-size: 15px;
+    border: 2px solid royalblue;
+
+}
+#buy2{
+    background-color: transparent;
+    color: royalblue;
+    padding: 14px 28px;
+    font-weight: 400;
+    border: 2px solid royalblue;
+    font-size: 15px;
+    border-radius: 50px;
+
+}
+#buy2:hover{
+    background-color: royalblue;
+    color: white;
+
+}
+#center3{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/bn/images/heroes/ipad-pro/hero_ipadpro__bpt7a9d8sh42_largetall_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    
+
+}
+#center3 h1{
+    color: white;
+    font-size: 65px;
+    font-weight: 400;
+    text-align: center;
+
+}
+#center3 h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+#link3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+#learn3{
+    background-color: royalblue;
+    color: white;
+    padding: 14px 28px;
+    font-weight: 500px;
+    border-radius: 58px;
+    font-size: 12px;
+    border: 2px solid royalblue;
+
+}
+#buy3{
+    background-color: transparent;
+    color: royalblue;
+    padding: 14px 28px;
+    font-weight: 400;
+    border: 2px solid royalblue;
+    font-size: 12px;
+    border-radius: 50px;
+
+}
+#buy3:hover{
+    background-color:royalblue ;
+    color: white;
+}
+
