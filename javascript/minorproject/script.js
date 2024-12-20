@@ -1,4 +1,4 @@
-// Simple JS for additional interactivity
+
 document.addEventListener('DOMContentLoaded', function() {
     const products = document.querySelectorAll('.product');
     
